@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/grupoFerramentas"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/inicio" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/balanca"
+            android:title="@string/calculo_imc" />
+        <item
+            android:id="@+id/nav_profi"
+            android:icon="@drawable/calculator"
+            android:title="@string/calculo_avancado" />
+        <item
+            android:id="@+id/nav_orientacao"
+            android:icon="@drawable/ingredients"
+            android:title="@string/orientacao_nutricional" />
+        <item
+            android:id="@+id/nav_alarme"
+            android:icon="@drawable/ic_alarm"
+            android:title="@string/alarmes" />
+        <item
+            android:id="@+id/nav_alimentos"
+            android:icon="@drawable/colher"
+            android:title="@string/alimentos" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/configuracoes"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_Add_fruta"
+            android:icon="@drawable/add_database"
+            android:title="@string/adicionar_alimento"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_entrar"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/entrar_ou_cadastrar"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/profile"
+            android:title="@string/informacoes"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_deslogar"
+            android:icon="@drawable/exit"
+            android:title="@string/deslogar"
+            android:visible="false"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

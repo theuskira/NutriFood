@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_botao"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageViewListOrientacao"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/report_card"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNomeListOrientacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/recomendacao"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
